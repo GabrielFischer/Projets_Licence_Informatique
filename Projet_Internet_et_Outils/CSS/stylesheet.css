@@ -1,0 +1,391 @@
+:root {
+	--headerTextColor: #f4f4f4;/*variable pour la couleur des textes du header*/
+	--headerColor: #151515;/*variable pour la couleur du header*/
+    --backgroundColor: #134444;/*variable pour la couleur du fond*/
+    --sideTextColor: #929292;/*variable pour la couleur du fond*/
+}
+
+* /* "*" désigne tous les éléments*/
+{
+	font-family: arial;
+}
+
+body{
+    background-color: var(--backgroundColor);/*bg color*/
+    margin: 0px;
+}
+
+a {
+    text-decoration: none; /*enleve soulignage pour tt les liens*/    
+}
+
+header a{
+    text-decoration: none; 
+    color : var(--headerTextColor);
+}
+a:hover{
+    font-weight: bold; /*affiche en gras les liens lorsque l'on passe la souris dessus*/
+}
+
+
+/* header style */
+header{
+    text-transform: uppercase; /*majuscule*/
+    background-color: var(--headerColor);
+    display:grid; /* Tableau avec les éléments du header  */
+    grid-template-columns: 14fr  1fr; /* créer un grid avec la colonne #barreEnHaut de taille 14fr et une autre colonne #icones de taille 1fr*/
+    height: 45px;
+    padding: 0px;
+	align-items: center;
+    color :var(--headerTextColor);
+}
+
+
+
+header nav ul{
+    list-style: none; /*Remove bullets*/
+    display: flex; /* mettre les éléments de la liste  à l'horizontale*/
+    padding: 0px; /* pas d'espace entre le contenu des bloc et le rebord*/
+    margin: 0;  
+
+}
+#barreEnHaut{
+    display:grid; /* sous tableau dans le tableau header*/
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#logo{
+    margin-left: 10px;
+    width:75px;
+    justify-content: center;
+}
+#icones {
+    display:grid;
+    grid-template-columns: 1fr  1fr 1fr;  
+}
+
+#icones li{
+    margin-left: 5px; /* Ecart entre chaque icone  */
+
+}
+
+.iconesHeader{
+
+    height: 30px;
+    
+}
+.pdp-header{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 10px;
+}
+
+/* end of header */
+
+/* start of main */
+/* Barre de recherhce*/
+.searchfield{
+    margin: 20px;
+}
+.searchfield-input{
+    padding: 0 20px;
+    margin: 0px;
+    width: 60%;
+    height: 40px;
+    font-size: 22px;
+}
+.searchButton{
+    height: 44px;
+    font-size: 22px;
+}
+
+
+
+/* Fin Barre de recherhce*/
+.div-article{
+    border: #242424 4px;
+    padding: 20px;
+
+    
+}
+.div-article h1{
+    padding: 0px;
+    margin: 0px;
+}
+.div-article h3{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+    color: var(--sideTextColor);
+    font-size: 15px;
+}
+.div-article p{
+    margin: 0px;
+}
+h4{
+    padding: 0px;
+    margin: 0px;
+}
+.mini-pdp{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 10px;
+}
+.cont{
+    display: flex;
+}
+.article-box{
+    padding: 30px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    border: 10px rgb(36, 36, 36);
+    background-color: #fff;
+}
+main{
+    width: 100%;
+    padding: 0px;   
+    
+    
+}
+#feed{
+    margin: auto;
+    width: 50%;
+    justify-content:center;
+    min-height: 600px;
+    
+}
+ /* likes*/
+ .like {
+    display: flex;
+    /* text-align: center; */
+    justify-content: right;
+    align-items: center;
+}
+
+ button.likes {
+    background-color: transparent;
+    border: transparent;
+    /* text-align: right; */
+}
+
+
+/* end of main */
+
+
+
+
+/* Profile */
+.article-profil{
+    margin: auto;
+    width: 50%;
+    justify-content:center;
+
+}
+.sendbtn {
+    
+    border: 0;
+    background:  var(--backgroundColor);
+    color: #fff;
+    padding: 0.68em;
+    border-radius: 14px;
+    font-weight: bold;
+    
+  }
+  
+.sendbtn:hover {
+    opacity: 0.8;
+} 
+
+.login-box {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(235, 235, 235, 0.987);
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+  
+.login-box .user-box {
+position: relative;
+}
+  
+.login-box .user-box input {
+width: 100%;
+padding: 10px 0;
+font-size: 16px;
+color:#222222;
+margin-bottom: 30px;
+border: none;
+border-bottom: 1px solid #222222;
+outline: none;
+background: transparent;
+}
+
+
+.login-box .user-box label {
+position: absolute;
+top: 0;
+left: 0;
+padding: 10px 0;
+font-size: 16px;
+color: #222222;
+pointer-events: none;
+transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+top: -20px;
+left: 0;
+color: #827e7e;
+font-size: 12px;
+}
+  
+#messageErreur{
+    color: red;
+}
+  
+/*page Profile*/
+*
+
+.profile-pic {
+    color: transparent;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.profile-pic input {
+    display: none;
+}
+.profile-pic img {
+    position: absolute;
+    object-fit: cover;
+    width: 165px;
+    height: 165px;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.35);
+    border-radius: 100px;
+    z-index: 0;
+}
+.profile-pic .-label {
+    cursor: pointer;
+    height: 165px;
+    width: 165px;
+}
+.profile-pic:hover .-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 100px;
+    margin-bottom: 0;
+}
+.profile-pic span {
+    display: inline-flex;
+    padding: 0.2em;
+    height: 2em;
+}
+.buttonBis{
+    text-decoration: none;
+    background-color: #1b1b1b;
+    border-radius: 14px;
+    color: #d8d8d5;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.button{
+    text-decoration: none;
+    background-color: #1b1b1b;
+    border-radius: 14px;
+    color: #d8d8d5;
+    padding: 10px;
+}
+.button:hover{
+    opacity: 0.8;
+}
+
+.compte h1{
+    padding: 0px;
+    margin: 0px;
+}
+.compte h3{
+    padding: 0px;
+    margin: 0px;
+
+    color: var(--sideTextColor);
+}
+
+#bio{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+   
+}
+#abo{
+    display: flex;
+    margin-top: 10px;
+}
+#abo p{
+    margin: 10px;
+
+}
+#abo a{
+    color: white;
+}
+
+.compte {
+   
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+    color:var(--headerTextColor) ;
+}
+.profil{
+    min-height: 90vh;
+}
+/*Fin Page Profil*/
+  
+  
+
+/* footer  */
+footer{
+    
+    text-transform: uppercase; /*majuscule*/
+    background-color: var(--headerColor);
+    display:grid; /* Tableau avec les éléments du header  */
+    height: 80px;
+    padding: 0px;
+	align-items: center;
+}
+footer ul{
+
+   list-style-type: none;
+   display:grid; /* Tableau avec les éléments du header  */
+   grid-template-columns: 1fr  1fr 1fr 1fr; /* créer un grid avec la colonne #barreEnHaut de taille 14fr et une autre colonne #icones de taille 1fr*/
+  
+}
+footer ul li a{
+    color: var(--sideTextColor);
+}

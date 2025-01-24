@@ -1,0 +1,16 @@
+Notre base donnée contient 10 tables:
+Users: Cette table contient toutes les peronnes qui ont créés un compte sur le site
+elle possède l'id primaire unique, un username unique, un mail unique, le nom, un mdp crypté par md5, l'attribut admin, le nombre d'abonnés et d'abonnements, la bio et le lien vers la photo de profil
+Artiste: Cette table contient l'id, le nom et le nombre d'album et de morceaux de chaque artistes dans la base de données
+Album: Cette table possède l'id, le nom de l'album de/des artiste(s) et l'année de publication
+Morceau: Pareil que dans la table album
+New_album: Cette table est vouée à être traitée par les admin après une proposition de nouvel album par la communauté, si les admin valident, il rajoutent l'album àla bdd
+cette table contient tout les champs du formulaire de nouvel album proposé aux utilisateurs
+New_morceau: Pareil
+New_artiste: Pareil
+Posts: Cette table contient tout les posts,
+elle possède un id, le type de post, l'id de l'utilisateur, et des attributs non-obligatoires et propres au type de post
+Likes: Cette table possède tout les likes
+elle possède un id, l'id de la publication liké, l'id de l'user qui à liké, la date et l'heure du like
+Abonnement: Cette table possède tout les liens entre les utilisateurs
+elle possède un id, l'id de l'abonné, l'id de l'abonnement, la date et l'heure de l'abonnement

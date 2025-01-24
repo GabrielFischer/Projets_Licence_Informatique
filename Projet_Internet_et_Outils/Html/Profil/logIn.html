@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="../../CSS/stylesheet.css">
+</head>
+<body>
+    <header>
+        <nav >
+            <ul id="barreEnHaut">
+                <li>
+                    <a   href="../../PHP/index.php"><img id ="logo" src="../../Images/logo_moosik.png" alt="logo_moosik"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class = "login-box">
+        
+        <h1>Connexion</h1>
+
+    <div id="messageErreur" class="erreur"></div> <!-- Balise pour afficher le message d'erreur -->
+    <script>
+        // Fonction pour récupérer les paramètres d'URL
+        function getParametreUrl(nomParametre) {
+            var parametres = new URLSearchParams(window.location.search);
+            return parametres.get(nomParametre);
+        }
+
+        var erreur = getParametreUrl("erreur");
+
+        //Vérifier le num de l'erreur
+        if (erreur === "1") {
+            // Afficher le message d'erreur
+            document.getElementById("messageErreur").textContent = "Utilisater introuvable ou mot de passe incorrect. Veuillez réessayer.";
+        }
+    </script>
+
+        <form action="../../PHP/Profil/LogIn.php" method="post">
+            
+            <!-- <p>Email: </p>-->
+            <div class = "user-box" >
+                <input type="email" name="mail" maxlength="100" required><br>
+                <label for="mail">E-mail</label><br>
+            </div>
+             
+           
+            <!-- <p>Password: </p> -->
+            <div class = "user-box">
+                <input type="password" name="mdp" maxlength="100" required><br>
+                <label for="mdp">Mot de passe</label><br>
+            </div>
+            
+            
+            <input class ="sendbtn" type="submit" value="Connexion" name="send">
+            <p>Pas encore inscrit? <a href="signUp.html">Inscrivez-vous!</a></p>
+            
+        </form>
+        
+        
+    </section>
+</body>
+</html>

@@ -1,0 +1,29 @@
+opam-version: "2.0"
+added: [
+  "doc/graphics" {"D"}
+  "doc/graphics/CHANGES.md" {"F:S764T1734784604."}
+  "doc/graphics/LICENSE" {"F:S27179T1734784604."}
+  "doc/graphics/README.md" {"F:S1733T1734784604."}
+  "lib/graphics" {"D"}
+  "lib/graphics/META" {"F:S203T1734784604."}
+  "lib/graphics/dune-package" {"F:S1424T1734784604."}
+  "lib/graphics/graphics.a" {"F:S34896T1734784604."}
+  "lib/graphics/graphics.cma" {"F:S57094T1734784604."}
+  "lib/graphics/graphics.cmi" {"F:S10101T1734784604."}
+  "lib/graphics/graphics.cmt" {"F:S108326T1734784604."}
+  "lib/graphics/graphics.cmti" {"F:S69301T1734784604."}
+  "lib/graphics/graphics.cmx" {"F:S3606T1734784604."}
+  "lib/graphics/graphics.cmxa" {"F:S967T1734784604."}
+  "lib/graphics/graphics.cmxs" {"F:S83200T1734784604."}
+  "lib/graphics/graphics.ml" {"F:S8556T1734784604."}
+  "lib/graphics/graphics.mli" {"F:S15717T1734784604."}
+  "lib/graphics/graphicsX11.cmi" {"F:S691T1734784604."}
+  "lib/graphics/graphicsX11.cmt" {"F:S10826T1734784604."}
+  "lib/graphics/graphicsX11.cmti" {"F:S6643T1734784604."}
+  "lib/graphics/graphicsX11.cmx" {"F:S589T1734784604."}
+  "lib/graphics/graphicsX11.ml" {"F:S1839T1734784604."}
+  "lib/graphics/graphicsX11.mli" {"F:S1643T1734784604."}
+  "lib/graphics/libgraphics_stubs.a" {"F:S150736T1734784604."}
+  "lib/graphics/opam" {"F:S1099T1734784604."}
+  "lib/stublibs/dllgraphics_stubs.so" {"F:S47528T1734784604."}
+]

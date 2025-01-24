@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signUp</title>
+    <link rel="stylesheet" href="../../CSS/stylesheet.css">
+</head>
+<body>
+    <header>
+        <nav >
+            <ul id="login-box">
+                <li>
+                    <a   href="../../PHP/index.php"><img id ="logo" src="../../Images/logo_moosik.png" alt="logo_moosik"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class = "login-box">
+        <h1>Inscription</h1>
+        <div id="messageErreur" class="erreur"></div> <!-- Balise pour afficher le message d'erreur -->
+    <script>
+        // Fonction pour récupérer les paramètres d'URL
+        function getParametreUrl(nomParametre) {
+            var parametres = new URLSearchParams(window.location.search);
+            return parametres.get(nomParametre);
+        }
+
+        // Récupérer la valeur du paramètre "erreur" dans l'URL
+        var erreur = getParametreUrl("erreur");
+
+        // Vérifier si le paramètre "erreur" existe et a la valeur "2" ou "3"
+        if (erreur === "2") {
+            // Afficher le message d'erreur
+            document.getElementById("messageErreur").textContent = "Utilisateur existant, veuillez choisir un autre identifiant";
+        }
+        if (erreur === "3") {
+            // Afficher le message d'erreur
+            document.getElementById("messageErreur").textContent = "Une erreur est survenue. Veuillez réessayer.";
+        }
+    </script>
+        <form action="../../PHP/Profil/SignUp.php" method="post">
+            <div class="user-box">
+                
+                <input type="text" name="username" required><br>
+                <label for="username">Nom d'Utilisateur</label>
+            </div>
+            <div class="user-box">
+                <input type="email" name="mail" maxlength="100" required><br>
+                <label for="mail">E-mail</label><br>
+            </div>
+            <div class="user-box">
+                <input type="password" name="mdp" maxlength="100" required><br>
+                <label for="mdp">Mot de Passe</label><br>
+            </div>
+            
+            <input class ="sendbtn" type="submit" value="Inscription" name="send"><br>
+            <p>Vous êtes déjà inscrit? <a href="logIn.html">Connectez-vous</a></p>
+        </form>
+        
+    </section>
+    
+    
+</body>
+</html>

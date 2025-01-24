@@ -1,0 +1,40 @@
+opam-version: "2.0"
+added: [
+  "doc/fmt" {"D"}
+  "doc/fmt/CHANGES.md" {"F:S4803T1732824331."}
+  "doc/fmt/LICENSE.md" {"F:S737T1732824331."}
+  "doc/fmt/README.md" {"F:S1125T1732824331."}
+  "lib/fmt" {"D"}
+  "lib/fmt/META" {"F:S986T1732824331."}
+  "lib/fmt/fmt.a" {"F:S167152T1732824331."}
+  "lib/fmt/fmt.cma" {"F:S221202T1732824331."}
+  "lib/fmt/fmt.cmi" {"F:S21646T1732824331."}
+  "lib/fmt/fmt.cmti" {"F:S137552T1732824331."}
+  "lib/fmt/fmt.cmx" {"F:S25307T1732824331."}
+  "lib/fmt/fmt.cmxa" {"F:S1482T1732824331."}
+  "lib/fmt/fmt.cmxs" {"F:S173328T1732824331."}
+  "lib/fmt/fmt.mli" {"F:S26817T1732824331."}
+  "lib/fmt/fmt_cli.a" {"F:S5072T1732824331."}
+  "lib/fmt/fmt_cli.cma" {"F:S5259T1732824331."}
+  "lib/fmt/fmt_cli.cmi" {"F:S858T1732824331."}
+  "lib/fmt/fmt_cli.cmti" {"F:S7350T1732824331."}
+  "lib/fmt/fmt_cli.cmx" {"F:S861T1732824331."}
+  "lib/fmt/fmt_cli.cmxa" {"F:S607T1732824331."}
+  "lib/fmt/fmt_cli.cmxs" {"F:S15376T1732824331."}
+  "lib/fmt/fmt_cli.mli" {"F:S2263T1732824331."}
+  "lib/fmt/fmt_top.a" {"F:S2456T1732824331."}
+  "lib/fmt/fmt_top.cma" {"F:S3327T1732824331."}
+  "lib/fmt/fmt_top.cmx" {"F:S1331T1732824331."}
+  "lib/fmt/fmt_top.cmxa" {"F:S1337T1732824331."}
+  "lib/fmt/fmt_top.cmxs" {"F:S13736T1732824331."}
+  "lib/fmt/fmt_tty.a" {"F:S7112T1732824331."}
+  "lib/fmt/fmt_tty.cma" {"F:S10859T1732824331."}
+  "lib/fmt/fmt_tty.cmi" {"F:S1029T1732824331."}
+  "lib/fmt/fmt_tty.cmti" {"F:S7993T1732824331."}
+  "lib/fmt/fmt_tty.cmx" {"F:S955T1732824331."}
+  "lib/fmt/fmt_tty.cmxa" {"F:S849T1732824331."}
+  "lib/fmt/fmt_tty.cmxs" {"F:S15848T1732824331."}
+  "lib/fmt/fmt_tty.mli" {"F:S2398T1732824331."}
+  "lib/fmt/fmt_tty_top_init.ml" {"F:S1262T1732824331."}
+  "lib/fmt/opam" {"F:S1359T1732824331."}
+]

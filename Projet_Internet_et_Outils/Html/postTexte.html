@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOOSIK</title>
+    <link rel="stylesheet" href="../CSS/stylesheet.css">
+</head>
+<header>
+    <nav >
+        <ul id="barreEnHaut">
+            <li>
+                <a   href="../PHP/index.php"><img id ="logo" src="../Images/logo_moosik.png" alt="logo_moosik"></a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <section class="login-box">
+
+        <h1>Nouveau post</h1>
+
+        <form action="../PHP/envoieForm/newText.php" method="post">
+        <div class="user-box">
+            <label for="titre">Quel est le titre de l'article?</label> <br>
+            <input type="text" name="titre" maxlength="60"required><br>
+        </div>
+        <div class="user-box">
+            <label for="texte">Qu'avez-vous à dire ?</label><br>
+            <input type="text" name="texte" maxlength="600"required><br>
+            
+        </div>
+        <input class ="sendbtn" type="submit" value="poster" name="send"><br>
+
+        </form>
+
+    </section>
+</html>

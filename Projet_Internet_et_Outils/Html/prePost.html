@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOOSIK</title>
+    <link rel="stylesheet" href="../CSS/stylesheet.css">
+</head>
+<header>
+  <nav >
+      <ul id="barreEnHaut">
+          <li>
+              <a   href="../PHP/index.php"><img id ="logo" src="../Images/logo_moosik.png" alt="logo_moosik"></a>
+          </li>
+      </ul>
+  </nav>
+</header>
+
+<section class = "login-box">
+
+    <h1>Publier du contenu</h1>
+
+    <form action="../PHP/envoieForm/prePost.php" method="post">
+        <h2>Que voulez vous publier?</h2>
+        <div class="user-box">
+            <input type="radio" value="texte" name="prePost" checked>
+            <label for="texte">Un Article</label>
+          </div>
+      
+          <div class="user-box">
+            <input type="radio" value="musique" name="prePost">
+            <label for="musique">Une musique</label>
+          </div>
+      
+          <div class="user-box">
+            <input type="radio" value="album" name="prePost">
+            <label for="album">Une critique d'album</label>
+          </div>
+
+          <div class="user-box">
+            <input type="radio" value="morceau" name="prePost">
+            <label for="morceau">Une critique d'un morceau</label>
+          </div>
+          
+          <input class ="sendbtn" type="submit" value="suite" name="send"><br>
+    </form>
+
+
+
+
+</section>
+
+</html>

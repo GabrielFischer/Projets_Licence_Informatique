@@ -1,0 +1,20 @@
+# dune exec test/test.exe -- test
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /Users/johnson/.cache/dune/db
+# Workspace root: /Users/johnson/Desktop/projet-pf5-2024-25/projet-pf5-2425
+# Auto-detected concurrency: 12
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /Users/johnson/.opam/4.14.1/bin/ocamlc.opt -config > /var/folders/bl/v30yb40x30q0pzk4ctjc2k1c0000gn/T/dune_f5e3d8_output
+$ (cd _build/default && /Users/johnson/.opam/4.14.1/bin/ocamldep.opt -modules -impl src/interp.ml) > _build/default/src/.pf5.objs/pf5__Interp.impl.d
+$ (cd _build/default && /Users/johnson/.opam/4.14.1/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w A-27-39-33-32 -g -I src/.pf5.objs/byte -I src/.pf5.objs/native -I /Users/johnson/Desktop/projet-pf5-2024-25/projet-pf5-2425/_opam/lib/fmt -I /Users/johnson/Desktop/projet-pf5-2024-25/projet-pf5-2425/_opam/lib/graphics -intf-suffix .ml -no-alias-deps -opaque -open Pf5 -o src/.pf5.objs/native/pf5__Interp.cmx -c -impl src/interp.ml)
+$ (cd _build/default && /Users/johnson/.opam/4.14.1/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w A-27-39-33-32 -g -a -o src/pf5.cmxa src/.pf5.objs/native/pf5.cmx src/.pf5.objs/native/pf5__Geo.cmx src/.pf5.objs/native/pf5__Interp.cmx src/.pf5.objs/native/pf5__Approx.cmx)
+$ (cd _build/default && /Users/johnson/.opam/4.14.1/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -open Pf5 -g -o test/test.exe /Users/johnson/Desktop/projet-pf5-2024-25/projet-pf5-2425/_opam/lib/fmt/fmt.cmxa /Users/johnson/Desktop/projet-pf5-2024-25/projet-pf5-2425/_opam/lib/astring/astring.cmxa /Users/johnson/Desktop/projet-pf5-2024-25/projet-pf5-2425/_opam/lib/cmdliner/cmdliner.cmxa /Users/johnson/Desktop/projet-pf5-2024-25/projet-pf5-2425/_opam/lib/uutf/uutf.cmxa /Users/johnson/Desktop/projet-pf5-2024-25/projet-pf5-2425/_opam/lib/alcotest/stdlib_ext/alcotest_stdlib_ext.cmxa /Users/johnson/Desktop/projet-pf5-2024-25/projet-pf5-2425/_opam/lib/fmt/fmt_cli.cmxa /Users/johnson/Desktop/projet-pf5-2024-25/projet-pf5-2425/_opam/lib/re/re.cmxa /Users/johnson/Desktop/projet-pf5-2024-25/projet-pf5-2425/_opam/lib/stdlib-shims/stdlib_shims.cmxa /Users/johnson/Desktop/projet-pf5-2024-25/projet-pf5-2425/_opam/lib/alcotest/engine/alcotest_engine.cmxa /Users/johnson/.opam/4.14.1/lib/ocaml/unix.cmxa -I /Users/johnson/.opam/4.14.1/lib/ocaml /Users/johnson/Desktop/projet-pf5-2024-25/projet-pf5-2425/_opam/lib/fmt/fmt_tty.cmxa /Users/johnson/Desktop/projet-pf5-2024-25/projet-pf5-2425/_opam/lib/alcotest/alcotest.cmxa -I /Users/johnson/Desktop/projet-pf5-2024-25/projet-pf5-2425/_opam/lib/alcotest /Users/johnson/Desktop/projet-pf5-2024-25/projet-pf5-2425/_opam/lib/graphics/graphics.cmxa -I /Users/johnson/Desktop/projet-pf5-2024-25/projet-pf5-2425/_opam/lib/graphics src/pf5.cmxa test/.test.eobjs/native/dune__exe.cmx test/.test.eobjs/native/dune__exe__Test_base.cmx test/.test.eobjs/native/dune__exe__Test_absint.cmx test/.test.eobjs/native/dune__exe__Test.cmx)

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Test</title>
+</head>
+<body>
+    
+    <section class = "compte">    
+        <div class="profile-pic">
+            <label class="-label" for="file">
+              <span class="glyphicon glyphicon-camera"></span>
+              <span>Change Image</span>
+            </label>
+            <input id="file" type="file" onchange="loadFile(event)"/>
+            <img src="../Images/th.jpg" id="output" width="200" />
+          </div>
+        <div id="infoCompte">
+            <h1>Kai</h1>
+            <h3>@Kai</h3>
+            <a class = "button" href="">modifer mon compte</a>
+            <div id="abo">
+                <p>abonnés 0</p>
+                <p>abonnements 0</p>
+            </div>
+        </div>
+
+    </section>
+     <select name="filter" id="">
+        <option value="Compte">Compte</option>
+        <option value="Morceau">Morceau</option>
+        <option value="Playlist">Playlist</option>
+     </select>
+     <div class="audio">
+     <audio controls autoplay muted>
+        
+        <source src="../Uploads\Musique\6453df29191834.50815725.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio> </div>
+</body>
+</html>
