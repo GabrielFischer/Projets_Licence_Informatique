@@ -1,0 +1,47 @@
+The goal of the project is to create a movie recommendation algorithm.
+We scrape the website letterboxd.com to collect data on a large number of films.
+We also scrape the profiles of users of the site so that we can recommend films to them based on their tastes.
+The various parameters collected per film include, for example:
+- Genre (19 possible)
+- The main actors
+- The directors
+- The year of release (or decade)
+- The country of production
+
+These attributes were embedded using a Word2Vec model trained on approximately 100,000 popular films, allowing semantically similar films to be represented close to one another in the vector space.
+Users are modeled as weighted combinations of the vectors of the films they have watched, with weights derived from their ratings. This approach allows the system to capture both positive and negative user preferences and to generate personalized recommendations by computing cosine similarity between user vectors and unseen films.
+
+
+How to run the code :
+
+if you want to run the recommendation algorithm on a specific Letterboxd username :
+python3 main.py data.json username [--eval (not mandatory)] 
+
+
+
+List of necessary libraries :
+time
+json
+numpy
+matplotlib
+matplotlib.pyplot
+pandas
+readcsv
+sys
+os
+from gensim.models import Word2Vec
+logging
+multiprocessing
+statsmodels.api
+bs4
+from urllib import request
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager
+random
+seaborn
+from scipy.stats import pearsonr, spearmanr
