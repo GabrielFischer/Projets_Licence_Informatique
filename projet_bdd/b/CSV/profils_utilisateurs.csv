@@ -1,0 +1,101 @@
+id,prenom,nom,genre,orientation,age,email,username,password,ville,pays,hobby1,hobby2,hobby3,taille,poids
+1,Pierre,Coste,Homme,Homosexuel.le,30,pierre.coste@club-internet.fr,gilles90,684eaee297a0aaf58d34addbcd91b1b2e2a2b076c1e98ad3dfa85b21c23c1b52,Daniel-sur-Gautier,France,cuisine,yoga,,189.1,89.2
+2,Ermenegildo,Rusticucci,Homme,Autre,52,ermenegildo.rusticucci@tiscali.it,dinobuonauro,1489b2959e83548cdda522bfb4be948bc77f0331603a2691315aa3483960cbff,Ranzano,Italie,cinéma,dessin,yoga,191.2,92.1
+3,Joséphine,Briand,Femme,Homosexuel.le,55,joséphine.briand@club-internet.fr,dmarty,b6342b58a7737c6f3f52b94c93185c07c18ef8cd86272a07cdf8667300c04a53,Dufourdan,France,voyage,,,150.6,53.9
+4,Alain,De Sousa,Homme,Homosexuel.le,44,alain.de sousa@sfr.fr,elisabeththibault,0c2fe8b38cd6d53b4d5534b07e8b2ba7432dd632bf2a6d2bcd1d96fcf32bf55a,Mailletboeuf,France,sport,danse,cuisine,173.8,61.3
+5,Élodie,Ramos,Femme,Hétérosexuel.le,40,élodie.ramos@live.com,raymondmary,ef6b8526dda19f269c81c85e68a7085a5f5a36c0e4cf29b3e999cace793998d4,Teixeira,France,photographie,,,160.1,77.6
+6,Adélaïde,Gillet,Femme,Hétérosexuel.le,23,adélaïde.gillet@laposte.net,agathe16,14be7092fd08a84e4b9fd440bd0168e1c7e829f292b8b6509574e7f3f5bc73b3,Guillet-sur-Lenoir,France,musique,yoga,lecture,152.4,82.1
+7,Laurence,Vallée,Femme,Autre,64,laurence.vallée@orange.fr,larochefrancoise,3ff0f71402e30506e1f07569d3812d5f36f5654e96477948b4bfcae66baef920,Nguyen-les-Bains,France,danse,,,159.4,62.4
+8,Margaud,Andre,Femme,Hétérosexuel.le,18,margaud.andre@wanadoo.fr,gabriellecarre,72892e70fa143afb1fb0b551ce219cb6d823d62b25e0699c931ff5c7f1b3f4c2,Pichon,France,sport,randonnée,musique,180.3,49.1
+9,Jacques,Dupont,Homme,Autre,49,jacques.dupont@yahoo.fr,carolinecosta,b53b02f1ff1b94625ad70539212a9cbb432812e109876888cdd161500f95079e,Bruneau,France,jeux vidéo,,,178.4,76.9
+10,Théodore,Bouvier,Homme,Hétérosexuel.le,42,théodore.bouvier@hotmail.fr,julie71,20ce4ec13dee1e06d07b51b73d3b07aa8962f419b3c16e4ed94003a649c340bc,CoulonVille,France,photographie,,,195.8,95.3
+11,Gregor,Meyer,Homme,Hétérosexuel.le,36,gregor.meyer@aol.de,hannah57,0a765c57c32420fc02bdf9ff838db713627a54a83a210a73510d119fea12efcd,Hainichen,Allemagne,lecture,jeux vidéo,,188.7,108.7
+12,Antonio,Lee,Homme,Hétérosexuel.le,39,antonio.lee@gmail.com,taylorvincent,cba42ec32802860726158ef81d8406ec1d1547e3bb5d8638c35fee20c3f03df5,New Joshua,États-Unis,danse,,,176.9,81.5
+13,Philippe,Lecomte,Homme,Hétérosexuel.le,19,philippe.lecomte@sfr.fr,emmanuel91,d0b2c41d450c0f0bb37a4c9fc71cd825ac1e8306c51b18a331ba749342c02c0b,Perez,France,sport,,,169.8,70.4
+14,Grace,Bennett,Autre,Homosexuel.le,54,grace.bennett@hotmail.com,joshuadavison,1460691711107e1605f59a598170022329dd71b4db2415232cacaffd7382c790,Lake William,Royaume-Uni,lecture,cuisine,musique,172.5,78.8
+15,Denise,Weinhold,Femme,Homosexuel.le,61,denise.weinhold@yahoo.de,friedemannbachmann,8b8794e6eaef8a56c139d41fa8d4004a9e53338c57c4f2980105a277dad7798e,Eutin,Allemagne,yoga,photographie,,152.2,64.7
+16,Amadeo,Soderini,Homme,Hétérosexuel.le,21,amadeo.soderini@poste.it,rtoldo,46a68f4c0fb4d8105882d5e490d55027e1ee2880f576b39537d1325c6ab81393,St. Martin am Kofl,Italie,lecture,,,179.6,76.8
+17,Gianluigi,Bellocchio,Homme,Homosexuel.le,39,gianluigi.bellocchio@hotmail.com,virginia82,f381adf67c81f4598a3714f7824e8f8c737019056ec8841697839c5ee159f3e6,Bousson,Italie,cinéma,cuisine,,184.1,78.6
+18,Sylvie,Masson,Femme,Hétérosexuel.le,23,sylvie.masson@free.fr,etiennechristine,a6e7d2efcc2538fda433f99b190223ec4f63cad74ec033d4ecceafbd614d875c,Faivre,France,cuisine,dessin,,162.4,71.2
+19,Trevor,Cooper,Homme,Hétérosexuel.le,27,trevor.cooper@gmail.com,uparker,722280e70b59008debfc4196b414272fd1a3e6c47104e7d1948164db034a4382,New Joshua,Royaume-Uni,dessin,,,172.0,91.1
+20,Pénélope,Rocher,Femme,Hétérosexuel.le,54,pénélope.rocher@gmail.com,franck72,d6e818a6910b6ba44be6853dfe204e50236cdffb4af2164a8cb2eb5142574493,Sainte ThibautBourg,France,jeux vidéo,yoga,voyage,170.3,84.4
+21,Victoire,Devaux,Femme,Homosexuel.le,62,victoire.devaux@club-internet.fr,maggie48,5dc9f3f8df4ceb02cab36f14e06103ee3d4d2a57523b644b3f0dce87487d6986,Richard,France,danse,yoga,,185.0,76.9
+22,Olivie,Lebon,Femme,Hétérosexuel.le,48,olivie.lebon@voila.fr,josephinejacques,c1d2b67b7b1bf1e7381076c68ffdf5405a6a374f86d11fa52706ff95eca1c337,Leroy-sur-Cousin,France,jeux vidéo,danse,,184.3,88.0
+23,Hortense,Martineau,Femme,Autre,33,hortense.martineau@live.com,gbodin,b3763b837a08139ebd57dab21e40b886e8fd69104efff0ffb30d4e4e8f3f229f,Aubry,France,cuisine,,,151.5,75.6
+24,Puccio,Pontecorvo,Homme,Homosexuel.le,57,puccio.pontecorvo@gmail.com,leoneazeglio,3e3172eba6af42bb96775d337ed9ab21acdd8a61e0ad004c35ff6aca553c8b47,Coldrano,Italie,randonnée,,,199.3,98.4
+25,Josette,Menard,Femme,Autre,53,josette.menard@sfr.fr,rbenard,fbc7503b77e7fe1161edcbab8a7c76cc06c1ac876e983666dd1ebecd04f3105e,Costa,France,jeux vidéo,,,167.6,59.5
+26,Agnès,Lopes,Femme,Hétérosexuel.le,35,agnès.lopes@voila.fr,perrotaimee,2a1c0228b66640b85603844cf79ba5164ce23c368dd71ee2dd586760289c3ad5,Colas-la-Forêt,France,cuisine,jeux vidéo,dessin,154.4,51.0
+27,Laurent,Michaud,Homme,Homosexuel.le,21,laurent.michaud@free.fr,pierrecorinne,22f1a6116b2080bbc1707990dccb7e216b7280e7f8f391517850fb533de21ed9,AllainBourg,France,dessin,,,165.8,76.0
+28,Hélène,Hebert,Femme,Homosexuel.le,29,hélène.hebert@noos.fr,diallomargot,f5ed6d107de59bfd52600bd32b811836887cf86e2cf480eda78bc16671d7993b,Chauvet,France,lecture,cinéma,,154.5,65.6
+29,Alphonse,Petitjean,Homme,Hétérosexuel.le,35,alphonse.petitjean@gmail.com,lopesrenee,9331bcd370d39f841904202733ae4e08f35527980a4e876322979454525264fb,Grégoire,France,dessin,randonnée,,166.5,79.1
+30,Théophile,Gimenez,Homme,Hétérosexuel.le,41,théophile.gimenez@hotmail.fr,bernadette86,fb4032ff7bc740463afec032933c400d1fb61c578b45fe081c29e0b5c8d01a91,Legros,France,cinéma,,,170.5,108.5
+31,Denis,Alves,Homme,Homosexuel.le,25,denis.alves@voila.fr,legeraugustin,7d893d63282f1899ac8f07deb566ced778f10468cfcc24c55b1c16836feedea0,Munoz-sur-Gauthier,France,musique,yoga,,181.3,68.7
+32,Margot,Gallet,Femme,Hétérosexuel.le,63,margot.gallet@orange.fr,ncourtois,8ec5172135456de0c4bbd8c766e3713a111a114fd8f5bae665cca6e961648658,Mary,France,dessin,voyage,photographie,176.6,74.5
+33,Gérard,Vallet,Homme,Autre,20,gérard.vallet@bouygtel.fr,laetitiabenard,2664c87f99d9fa1f24187151791a680295f10faf5449806548149be21bf34a1f,Huet,France,cinéma,,,190.4,64.5
+34,Éric,Savard,Homme,Hétérosexuel.le,38,éric.savard@gmail.com,jerome68,2b2aff097beb6792164c1a6840e4a21b157a33c00d08d4f1f5087d05d608cb70,L'Île- Beaulieu,Canada,lecture,sport,yoga,176.8,60.7
+35,Joseph,Fischer,Homme,Hétérosexuel.le,46,joseph.fischer@wanadoo.fr,maggie29,0d111e6b2651090bcc2a21170467f1f4bc1b81d3faa3b0f765154ab9cdaf6d88,Bigot,France,randonnée,,,195.5,96.0
+36,Émile,Hubert,Homme,Hétérosexuel.le,29,émile.hubert@bouygtel.fr,mchartier,609fe3afd2b51727193ddf03053efd8a9244976b12a07add733e25d82d50a7a7,Saint Anastasie-les-Bains,France,dessin,,,187.8,103.0
+37,Margot,Joubert,Femme,Hétérosexuel.le,55,margot.joubert@voila.fr,suzanne61,0537dee56277e915e65a23e87830d33551aea985e4f94de686874ec213971b4e,AlbertVille,France,sport,,,171.1,81.3
+38,Nathalie,Hamel,Femme,Hétérosexuel.le,32,nathalie.hamel@orange.fr,bourgeoissebastien,ec11693b38d2e1ed855d6b252a8efc1c310e9c89c8f5a59c8b44f6597b24b47e,Sainte David,France,lecture,,,150.3,61.8
+39,James,Wilson,Homme,Hétérosexuel.le,22,james.wilson@yahoo.com,chelsea83,88f311026081510912a7811af91d694343f43e1a10a3126c6c3254b22949696a,South Louisebury,Royaume-Uni,yoga,lecture,,197.1,73.5
+40,Marc,Dumont,Homme,Hétérosexuel.le,32,marc.dumont@ifrance.com,acamus,8287127e3c87da76ac97e4f67349943ec6978df559742c10518f605b8811f827,Saint Françoisdan,France,yoga,lecture,cinéma,186.5,77.5
+41,Michel,Olivier,Homme,Hétérosexuel.le,29,michel.olivier@yahoo.fr,lefortsebastien,4af05676cda25c21c4af4a3eb3c1a70547c40525bb6631234c8630fef3a7d841,Vallet-sur-Leconte,France,musique,,,190.6,84.2
+42,Zacharie,Bertin,Homme,Hétérosexuel.le,28,zacharie.bertin@tele2.fr,odetteherve,5d78c2ecd1302082847e56395280599fdd5d35d146640ddb1070cc4ccc00c0c9,Gaillard,France,voyage,,,166.9,72.6
+43,Luce,Thibault,Femme,Hétérosexuel.le,53,luce.thibault@free.fr,beckerlaure,d7ff6d530cedba516817a8879d09784e9c4d619fd51de3c7334f4a7849668b55,Traore,France,musique,lecture,,164.4,63.4
+44,Margaud,Hoareau,Non-binaire,Hétérosexuel.le,21,margaud.hoareau@orange.fr,alexandrie51,ccd5e25e646535f0ec9c49f3c2289b83458bbf03d69dfd56e59980f715cb08b4,Saint Clémencenec,France,musique,danse,yoga,154.0,85.5
+45,Marcel,Georges,Homme,Autre,60,marcel.georges@laposte.net,boulayhelene,81ec9d5996fbdb1be4585fb46aee6f6bdcafa9be352eac3cf5249646fa96465b,Dos Santos-sur-Techer,France,yoga,,,181.0,100.1
+46,Alexandre,Lelièvre,Non-binaire,Hétérosexuel.le,63,alexandre.lelièvre@yahoo.fr,ribeirojoseph,258f67328b46bfcb22cfb6a54f9f5a1de4404622797d18db38d2b448d7bef0a4,Sainte Françoisnec,France,lecture,,,190.7,68.9
+47,Nicolas,Gilles,Homme,Hétérosexuel.le,46,nicolas.gilles@orange.fr,imace,e119c4eb10e4d2a3c459e7196400ca00d37195ec82dbfe8572e368a6760b8b59,Lebon-sur-Ollivier,France,sport,cinéma,danse,181.3,97.0
+48,Sophie,Thibault,Femme,Autre,40,sophie.thibault@tele2.fr,marine32,d426b23226fe39cbd640866dfb3e00651b85fbe3cc7eb59b17887f767d59164a,Delmas,France,photographie,,,160.4,66.2
+49,Julien,Ruiz,Homme,Homosexuel.le,46,julien.ruiz@dbmail.com,kbailly,34e2d8081ea2dabba2c2eb91b0b8735d53186f0c9dc6d82f814fa0f9f59fb955,Chevallier-les-Bains,France,photographie,,,177.5,82.5
+50,Micheletto,Bonanno,Homme,Hétérosexuel.le,56,micheletto.bonanno@vodafone.it,ernestofantini,33cad3af24db1278cbfa413b9469a20be192247be3b7f5c4414b68427a4dbe6a,Scorrano,Italie,yoga,photographie,,165.8,83.0
+51,André,Gay,Homme,Hétérosexuel.le,33,andré.gay@hotmail.fr,clairemunoz,9763ff628b80077d74b176df31a480e426a4ef293b1fb660b531f4c137726dc5,Cordier,France,photographie,cinéma,,173.2,73.5
+52,Agathe,Pasquier,Femme,Hétérosexuel.le,51,agathe.pasquier@laposte.net,jules38,cd905f86190d21831b7371c1fe5a4796fba13917e660ad1f60a3888382614f62,Nicolas,France,musique,dessin,,165.1,89.0
+53,Constance,Bourgeois,Femme,Hétérosexuel.le,24,constance.bourgeois@wanadoo.fr,aurore26,70a5eae85a4aa040aeede5cdfcd63acbb1b45b526fe45d9cfe6b375249eecad5,Saint Édouard,France,cuisine,,,150.6,57.4
+54,Véronique,Barre,Femme,Hétérosexuel.le,46,véronique.barre@bouygtel.fr,dsimon,d7af35a009b071d618ad05fefffa6312db465ab0aeb19dafb39045ddc2ab5a11,Clément-sur-Mer,France,lecture,,,153.4,48.3
+55,Théophile,Pinto,Homme,Hétérosexuel.le,22,théophile.pinto@tiscali.fr,wmarin,e0cf8215981ba62b2682df87ff9cc8a1a40292b52dae28fe99f732d08c4cbea9,Pottier,France,cinéma,,,175.2,65.5
+56,Stéphane,Perez,Homme,Homosexuel.le,44,stéphane.perez@free.fr,georgesrenard,adb25d2a723583057f83f2d06b6e62f53232a93692e608f05442196dba393d44,Riou-sur-Hebert,France,cuisine,randonnée,sport,166.1,73.2
+57,Isaac,Marques,Homme,Hétérosexuel.le,33,isaac.marques@orange.fr,bmartineau,feeae36dafe228e47eec1f0acdb2a897136e34ea691ac133fb1c0e33120662bc,Voisin,France,randonnée,photographie,dessin,169.7,74.8
+58,Pierre,Barbier,Homme,Hétérosexuel.le,44,pierre.barbier@bouygtel.fr,perrotcecile,c43b102040c94285a27b30675d07053e6b9602f32d10a0829cce1881388aa779,Guillot,France,sport,voyage,danse,193.6,63.4
+59,Denise,David,Femme,Hétérosexuel.le,64,denise.david@wanadoo.fr,whoarau,7a81cce75236a9eb1b08373bbce9208eabb649ffba6fd12bafbd84391ccc1952,Joly,France,photographie,danse,,173.2,47.5
+60,Antoinette,Dos Santos,Femme,Hétérosexuel.le,58,antoinette.dos santos@tele2.fr,charlotte03,e69d9f8662da47bbae6c8f6a940cc605dec44c856605423fb14a653790b3ed6a,Saint Henridan,France,sport,,,154.8,76.7
+61,Diane,Lucas,Femme,Hétérosexuel.le,51,diane.lucas@yahoo.fr,adelaide94,f496cc38c8bed4d95a8b5c4801e10ba9f4726ef43a8cf3b182dfc5339484082c,Brunel-la-Forêt,France,jeux vidéo,danse,randonnée,173.7,68.1
+62,Laetitia,Collet,Femme,Hétérosexuel.le,21,laetitia.collet@club-internet.fr,ileroux,dade93e1f1b0f86e53b9674c3f1fd7760297395751d6cadaa33dd9fbeed49527,Payet,France,yoga,,,166.9,75.4
+63,Lucie,Wagner,Femme,Hétérosexuel.le,30,lucie.wagner@dbmail.com,andrefontaine,512397260daab5bd12873b8c2aabb86e1ed6ca762a901fb2899d3b25ddc08cfb,Sainte Margaux,France,cinéma,,,176.0,82.6
+64,Françoise,Samson,Femme,Hétérosexuel.le,42,françoise.samson@wanadoo.fr,kmeunier,5e963802ed9c0706c9b6c66b51e12a621d3ba8dc9ff809c586ed947b72c7909b,Gay,France,jeux vidéo,,,175.4,75.1
+65,Michelle,Renard,Femme,Autre,57,michelle.renard@voila.fr,chantalgonzalez,32112d3a782216507da9a7d29fffda62d6e198ff0e606bd65b9d259e7f88cf11,Hervé-sur-Weiss,France,jeux vidéo,musique,dessin,161.4,83.6
+66,Adélaïde,Bertrand,Femme,Hétérosexuel.le,57,adélaïde.bertrand@orange.fr,michel28,085a7988f68801e3531311d7879ea306abd5f2909bcb3257b2d8c9b788802795,Sainte AudreyVille,France,photographie,musique,danse,184.6,72.5
+67,Antonina,Barillaro,Femme,Homosexuel.le,61,antonina.barillaro@poste.it,xsantorio,adac055a99948129bb37bd06b56366cc1fe1214a452366ad35324c5b6022f3d4,Trentola Ducenta,Italie,danse,cinéma,,179.4,58.5
+68,Louise,Boyer,Femme,Hétérosexuel.le,49,louise.boyer@tele2.fr,diane75,359c5e45cd8ad104c3d4e5786fef3262eddd4bd4e9a2f676ae654412cf0b7d84,BlinBourg,France,cuisine,,,163.4,86.4
+69,Camille,Hubert,Femme,Autre,53,camille.hubert@dbmail.com,andregrenier,92041c933febb3330f056e149e7b35e14ea1af59db219145601fcd1080bb46df,Leblanc,France,sport,dessin,,156.0,61.0
+70,Élise,Texier,Femme,Homosexuel.le,34,élise.texier@bouygtel.fr,bernierphilippine,4c72b4fb39a32a609427021fc623833c912acc5b04b574231248a24870a6fb61,Laporte,France,dessin,photographie,cinéma,152.9,56.2
+71,Martine,Pons,Femme,Hétérosexuel.le,60,martine.pons@yahoo.fr,celine97,d3f69737d5e56f4135928e62697d395af58876df4c0bba0541828e970e989f15,Petit,France,photographie,,,154.5,57.5
+72,Cécile,Coulon,Femme,Hétérosexuel.le,56,cécile.coulon@club-internet.fr,ichauvin,067a0dff755b29240fc175ada0f0db8e4a2ec7b6511db23f142a4c5c34e4b2d0,Denis-la-Forêt,France,lecture,cuisine,,156.5,63.1
+73,Zacharie,Étienne,Homme,Autre,27,zacharie.étienne@club-internet.fr,berthelotedith,594e3b2803fcf25db37480a677fa86ac44230ec14168af4e63447019922b70dd,Maréchal-les-Bains,France,lecture,photographie,yoga,184.4,72.8
+74,Alphonse,Lebon,Homme,Hétérosexuel.le,45,alphonse.lebon@free.fr,marthegeorges,622af9e037001c204eb30a577aa34df560fe443fcc87e70ae50cc7247698dfaa,Bourdon-sur-Dubois,France,musique,photographie,,195.3,69.2
+75,Valérie,Masse,Femme,Hétérosexuel.le,60,valérie.masse@live.com,auroregonzalez,07e47e3f29682403f84d7c7729cc4ac8168e43800d6d799a554bd79edf9b1bb3,Sainte Anouk,France,danse,photographie,,178.5,74.7
+76,David,Costa,Homme,Homosexuel.le,28,david.costa@gmail.com,klecomte,048165fab7fa62ff62b275ad497dc24ddcaa49f472501939513d65e120e6801b,Le Rouxnec,France,photographie,,,171.2,98.2
+77,Paul,Garcia,Homme,Homosexuel.le,27,paul.garcia@wanadoo.fr,voisindanielle,cf3e5d10cf3758c4bfe461cd3d4d946fa775b6eafe0449fb039497b49b7e934e,Jean-sur-Mer,France,photographie,,,184.1,63.8
+78,Michelle,Charles,Femme,Homosexuel.le,57,michelle.charles@laposte.net,zleduc,c5954b5368932ec5d5fb5ec8f800f95d7e0281663f0d3797952ade544fe90e5b,Samsondan,France,danse,jeux vidéo,,165.1,77.6
+79,Niels,Bolnbach,Homme,Hétérosexuel.le,20,niels.bolnbach@web.de,helmar89,30dc8e5debdf39345e6c2d806cdac0a102d2196174653020444c534a5028098b,Ebermannstadt,Allemagne,danse,,,174.8,81.6
+80,Michel,Gonzalez,Homme,Autre,30,michel.gonzalez@tele2.fr,adrien22,9971b8fe50ef542f042a77e7d9ae05c25cee110deb609bfda830e714bceccaa4,Lenoir,France,lecture,cuisine,cinéma,178.4,72.8
+81,Zoé,Durand,Femme,Autre,50,zoé.durand@tiscali.fr,coulonamelie,5b6825eb3f258f4d1dee7e09f15a092ca5752ac314f9b232dfacefe4d64cf80e,Sainte Paulette,France,dessin,musique,,150.4,78.2
+82,Diane,Gautier,Non-binaire,Hétérosexuel.le,43,diane.gautier@wanadoo.fr,andre82,799c59290c6c1396f938b1ae8266d7e0e132fb2b28b5941f58f36945287a3bc7,Peron,France,cinéma,randonnée,cuisine,165.0,76.6
+83,Thomas,Philippe,Homme,Hétérosexuel.le,41,thomas.philippe@club-internet.fr,henriette84,f427700803cb3995aa3b9e22fcaf38042c22b0e027859d46d5bc2bb007b1eff0,DidierBourg,France,photographie,dessin,,182.1,84.1
+84,Alix,Techer,Non-binaire,Hétérosexuel.le,55,alix.techer@sfr.fr,ltraore,fd31aa662b34153cbf1bfe15f3af80bea13cc53899339d5443bedf70a5293a0e,JourdanBourg,France,voyage,photographie,cinéma,175.9,77.7
+85,Martine,Fontaine,Femme,Hétérosexuel.le,49,martine.fontaine@tiscali.fr,nathaliepelletier,7a4cbb73c8906bbb8bda90390d027e4cbb66391352bf35d7335cf2549ba4c6bb,Meunier,France,photographie,danse,sport,162.2,61.2
+86,Martin,Boulanger,Homme,Hétérosexuel.le,38,martin.boulanger@gmail.com,xavier25,df20f6700c82ed91f50a04f8e6872b951acb4aa4c78a4428f631cf9a6b45c833,Baie Thibodeau,Canada,cuisine,cinéma,,197.1,105.9
+87,Élisabeth,Georges,Non-binaire,Hétérosexuel.le,25,élisabeth.georges@wanadoo.fr,margotmahe,30ceb5fb1440a3e57268c6dfb05b5986eb80e168e14d7ad5e5a9b97d2e52e9b1,Dupuy-les-Bains,France,jeux vidéo,,,167.9,91.7
+88,Richard,Lagarde,Homme,Hétérosexuel.le,32,richard.lagarde@gmail.com,cgirard,6b3eea6eb66b4b90c9133a0422715104091088dd56e5966a0b4f445b06d9e04e,Thomas,France,lecture,yoga,cinéma,179.4,95.8
+89,Christine,Mercier,Femme,Hétérosexuel.le,24,christine.mercier@laposte.net,zlucas,0b0a72c309154a42d734e27b19dd2b62b1c7c02608995f6a35d8e19e2ec4741a,Goncalves,France,cuisine,sport,,176.9,68.2
+90,Victor,Bailly,Homme,Hétérosexuel.le,50,victor.bailly@hotmail.fr,isabellebrun,afe98cc5d7569f5d47f5bc4279c789ba402b83e47d292a00049cbfca07a71806,Raymond,France,jeux vidéo,yoga,lecture,175.0,81.9
+91,Océane,Maillet,Autre,Hétérosexuel.le,42,océane.maillet@laposte.net,georges86,1d645aed6749e1d590b078e265e4ec8f111c09c5ecc0e8dfcfec7bd2ca48c66d,BlondelBourg,France,randonnée,jeux vidéo,,164.2,88.7
+92,Jérôme,Schmitt,Non-binaire,Hétérosexuel.le,41,jérôme.schmitt@live.com,suzanne11,98a73b4f5cbd5238b81cf6adda3239d0a8f65101646642a5d4804509228f1357,Saint Véronique,France,lecture,yoga,,170.4,64.4
+93,Anastasie,Bodin,Femme,Hétérosexuel.le,61,anastasie.bodin@voila.fr,thibault18,2f37034216767946523909ff653e3ce50221899c924c6d4d64dca7be8e08ae1e,Nicolas,France,dessin,voyage,randonnée,152.7,63.1
+94,Alphonse,Fabre,Homme,Autre,42,alphonse.fabre@tiscali.fr,edevaux,57788585b16fedcb674f9fe3b85ef489199c230f410a03c309bf6301fbf501b1,Cousin,France,cuisine,,,188.7,99.1
+95,Denis,Pottier,Homme,Hétérosexuel.le,53,denis.pottier@laposte.net,sylvieguillaume,f51d558248c6a7fecb62dce6d316327fadcbb1437259aa79d4de24bd1f6ddff7,Sainte Élisabeth,France,cinéma,musique,randonnée,176.4,98.9
+96,Léon,Barbier,Homme,Homosexuel.le,56,léon.barbier@tiscali.fr,wagnertristan,a1bc76e46a9420385032814208bdc0bc24e1e7cd711b923fb5b5f1b3dca72608,RobertVille,France,randonnée,photographie,,169.5,90.6
+97,Roland,Samson,Homme,Hétérosexuel.le,35,roland.samson@laposte.net,gabrielpetitjean,e3938cfcd3ffbdff1bbab315ab829af5600df4770bb44275a5970c895090a6c0,Saint Juliette,France,lecture,voyage,randonnée,194.6,85.7
+98,Marine,Thierry,Femme,Homosexuel.le,60,marine.thierry@laposte.net,pruvostpatrick,bf6bb04948a1714fd04d4e06e4b1a1c7660bd653cd83fb57c60fb1eb10db4850,Moreno,France,jeux vidéo,,,166.8,76.9
+99,Noël,Georges,Homme,Hétérosexuel.le,64,noël.georges@laposte.net,luc61,bfd42f107ddcf13e1138fcd2f98ea60b92b5e0036ac2f1242c789c0e6489653d,Baron-les-Bains,France,dessin,danse,musique,167.7,87.6
+100,Léon,Pelletier,Autre,Homosexuel.le,51,léon.pelletier@laposte.net,ygoncalves,e18f0bb31713fe60f3626cddc648857f52f7703a9029559b67bf030d20e515db,Saint Guy-la-Forêt,France,voyage,photographie,,185.5,75.7

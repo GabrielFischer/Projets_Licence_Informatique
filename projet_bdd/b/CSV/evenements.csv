@@ -1,0 +1,31 @@
+id,evenement,tags
+1,Concert,"musique"
+2,Spectacle,"théâtre"
+3,Festival,"musique"
+4,Conférence, 
+5,Soirée,"soirées"
+6,Projection,"cinéma"
+7,Théâtre,"théâtre"
+8,Exposition,"dessin"
+9,Séance cinéma,"cinéma"
+10,Shooting photo,"photographie"
+11,Bar à chats,"animaux"
+12,Club de lecture,"lecture"
+13,Compétition de jeux-vidéos,"jeux vidéo"
+14,Bowling,"sport"
+15,Cours de danse,"danse"
+16,Escape Game,"jeux vidéo"
+17,Atelier peinture,"dessin"
+18,Stand-up,
+19,Atelier cuisine,"cuisine"
+20,Karaoké,"musique"
+21,Cours de Yoga,"yoga"
+22,Atelier Photo,"photographie"
+23,Dégustation de Vins,
+24,Cours de cuisine thématique,"cuisine"
+25,Tournoi d'échecs,"jeu de société"
+26,Session de méditation,
+27,Cours de poterie, 
+28,Soirée jeux de sociétés,"jeux de société"
+29,Balade à vélo,"randonnée"
+30,Cours de natation,"sport"
